@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Putri Anindya</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.92/build/spline-viewer.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased selection:bg-purple-500/30">
+
+    <div id="home" class="max-w-6xl mx-auto px-6 py-8">
+        
+<!-- NAVBAR -->
+<nav class="glass-card rounded-full px-8 py-4 flex justify-between items-center 
+fixed top-4 left-1/2 -translate-x-1/2 w-[90%] z-50 border border-white/10 backdrop-blur-lg">
+
+    <div class="text-xl font-extrabold tracking-tighter">
+        Ptrianndy
+    </div>
+
+    <div class="hidden md:flex gap-10 text-sm font-medium text-gray-400">
+        <a href="#home" class="hover:text-white transition">Home</a>
+        <a href="#about" class="hover:text-white transition">About</a>
+        <a href="#project" class="hover:text-white transition">Project</a>
+        <a href="#skills" class="hover:text-white transition">Skills</a>
+        <a href="#contact" class="hover:text-white transition">Contact</a>
+    </div>
+
+    <a href="#contact" class="btn-gradient px-6 py-2 rounded-xl text-sm font-bold shadow-lg shadow-purple-500/20">
+        Hire Me
+    </a>
+
+</nav>
+
+        <section id="home" class="min-h-screen flex items-center pt-24">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-purple-600/20 blur-[120px] -z-10"></div>
+            
+            <div class="md:w-1/2 space-y-6">
+                <span class="bg-purple-900/30 text-purple-400 px-4 py-1.5 rounded-full text-xs font-bold tracking-wide">Hello, I'm</span>
+                <h1 class="text-7xl font-extrabold tracking-tight leading-none">Putri <span class="text-purple-500">Anindya</span></h1>
+                <p class="text-lg text-purple-300 font-semibold tracking-wide">Frontend Developer & UI Designer</p>
+                <p class="text-gray-400 max-w-md leading-relaxed">I create websites that are responsive, attractive, and easy to use. Let's turn your ideas into reality.</p>
+                <div class="flex gap-4 pt-4">
+                    <a href="#contact" class="btn-gradient px-8 py-3 rounded-xl font-bold flex items-center gap-2 group">Hire Me</a>
+                    <a href="#project" class="border border-white/20 px-8 py-3 rounded-xl font-bold hover:bg-white/5 transition">View Project</a>
+                </div>
+
+            <div class="flex gap-6 pt-6 text-xl text-gray-500">
+                <a href="https://github.com/putrianindyahapsari?tab=repositories" target="_blank">
+                <i class="fab fa-github hover:text-white cursor-pointer transition"></i></a>
+
+                <a href="https://tiktok.com/@hyninzz" target="_blank">
+                <i class="fa-brands fa-tiktok hover:text-white cursor-pointer transition"></i></a>
+
+                <a href="https://instagram.com/ptrianienn__" target="_blank">
+                <i class="fab fa-instagram hover:text-white cursor-pointer transition"></i></a>
+                </div>
+            </div>
+
+            <div class="md:w-1/2 relative mt-20 md:mt-0 flex justify-center">
+                <div class="relative">
+                    <div class="glass-card p-3 rounded-[3rem] border-purple-500/20">
+                        <img src="avatarr.png" alt="Avatar" class="rounded-[2.5rem] w-full max-w-[380px] object-cover">
+                    </div>
+                    <div class="absolute -right-6 top-16 glass-card px-4 py-3 rounded-2xl border-white/10 flex items-center gap-3">
+                        <span class="text-[10px] font-bold uppercase tracking-wider text-gray-300">Creative<br>Developer</span>
+                        <div class="bg-purple-600 p-2 rounded-lg"><i class="fas fa-bolt text-white"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <section id="about" class="mt-24 scroll-mt-32">
+
+    <div class="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <div class="lg:col-span-3 flex justify-center">
+            <div class="glow-border rounded-3xl overflow-hidden w-64 h-80">
+                <img src="formal1.png" alt="Putri Anindya" class="w-full h-full object-cover">
+            </div>
+        </div>
+
+        <div id="about" class="lg:col-span-5 space-y-5">
+            <div>
+                <h1 class="text-4xl font-bold mt-3">About<span class="text-purple-500"> Me</span></h1>
+            </div>
+            
+            <p class="text-gray-400 text-sm leading-relaxed">
+                I am a vocational high school student who has an interest in web development and interface design. I enjoy learning new things and am always interested in creating designs that are simple yet elegant.
+            </p>
+
+            <div class="space-y-3 text-sm">
+                <div class="flex items-center gap-4">
+                    <span class="w-8 flex justify-center text-purple-400"><i class="fas fa-user"></i></span>
+                    <span class="text-gray-400 w-20">Name</span>
+                    <span class="text-white">: Putri Anindya Hapsari</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <span class="w-8 flex justify-center text-purple-400"><i class="fas fa-map-marker-alt"></i></span>
+                    <span class="text-gray-400 w-20">Residence</span>
+                    <span class="text-white">: Boyolali</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <span class="w-8 flex justify-center text-purple-400"><i class="fas fa-envelope"></i></span>
+                    <span class="text-gray-400 w-20">Email</span>
+                    <span class="text-white">: putri.p25096@satamail.my.id</span>
+                </div>
+            </div>
+        <button>
+        <a href="recounttext.html" class="flex items-center gap-2 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 text-white px-6 py-2.5 rounded-lg text-sm font-semibold transition-all shadow-lg">Recount Text</a>
+        </button>
+    </div>
+
+        <div class="lg:col-span-4 grid grid-cols-3 gap-4">
+            <div class="glass-card p-6 rounded-2xl flex flex-col items-center justify-center text-center space-y-3">
+                <div class="bg-white/5 p-3 rounded-xl">
+                    <i class="fas fa-code text-purple-400"></i>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold">10+</h3>
+                    <p class="text-[10px] text-gray-500 uppercase tracking-tighter">Project</p>
+                </div>
+            </div>
+
+            <div class="glass-card p-6 rounded-2xl flex flex-col items-center justify-center text-center space-y-3">
+                <div class="bg-white/5 p-3 rounded-xl">
+                    <i class="fas fa-heart text-purple-400"></i>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold">2+</h3>
+                    <p class="text-[10px] text-gray-500 uppercase tracking-tighter">Years Learning</p>
+                </div>
+            </div>
+
+            <div class="glass-card p-6 rounded-2xl flex flex-col items-center justify-center text-center space-y-3">
+                <div class="bg-white/5 p-3 rounded-xl">
+                    <i class="fas fa-trophy text-purple-400"></i>
+                </div>
+                <div>
+                    <h3 class="text-base font-bold leading-none">UI/UX</h3>
+                    <p class="text-[10px] text-gray-500 uppercase tracking-tighter mt-1">Passionate</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+        <section id="project" class="py-20 mt-24">
+            <div class="flex justify-between items-end mb-10">
+                <div>
+                    <h2 class="text-4xl font-bold">Proj<span class="text-purple-500">ect</span></h2>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="glass-card p-5 rounded-[2.5rem] group hover:border-purple-500/50 transition-all">
+                <div class="bg-[#1a1625] rounded-3xl mb-6 overflow-hidden aspect-video flex items-center justify-center">
+                    <img src="project ipas.png"class="w-full opacity-80 group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <h3 class="text-xl font-bold mb-1">PROJECT IPAS</h3>
+                    <p class="text-purple-400 text-sm font-medium mb-3">IPAS Collaboration</p>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-6">A website containing collaborative science assignments for making crafts.</p>
+                    <a href=" https://putrianindyahapsari.github.io/Project_IPAS1/" target="_blank"
+                    class="bg-purple-600 hover:bg-purple-700 w-full py-3 rounded-xl font-bold text-sm transition flex items-center justify-center">
+                    View Project<i class="fas fa-arrow-right ml-2 text-[10px]"></i></a></div>
+            
+            <div class="glass-card p-5 rounded-[2.5rem] group hover:border-purple-500/50 transition-all">
+                <div class="bg-[#1a1625] rounded-3xl mb-6 overflow-hidden aspect-video flex items-center justify-center">
+                    <img src="smk digital.png"class="w-full opacity-80 group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <h3 class="text-xl font-bold mb-1">SMK DIGITAL</h3>
+                    <p class="text-purple-400 text-sm font-medium mb-3">Task Two</p>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-6">A website containing information about the school.</p>
+                    <a href=" https://putrianindyahapsari.github.io/tugas-smk-digital/" target="_blank"
+                    class="bg-purple-600 hover:bg-purple-700 w-full py-3 rounded-xl font-bold text-sm transition flex items-center justify-center">
+                    View Project<i class="fas fa-arrow-right ml-2 text-[10px]"></i></a></div>
+            
+            <div class="glass-card p-5 rounded-[2.5rem] group hover:border-purple-500/50 transition-all">
+                <div class="bg-[#1a1625] rounded-3xl mb-6 overflow-hidden aspect-video flex items-center justify-center">
+                    <img src="environment.png"class="w-full opacity-80 group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <h3 class="text-xl font-bold mb-1">ENVIRONMENT</h3>
+                    <p class="text-purple-400 text-sm font-medium mb-3">Task Three</p>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-6">A website that contains infornation about the surrounding environment.</p>
+                    <a href="https://putrianindyahapsari.github.io/Tugas3_Environs/" target="_blank"
+                    class="bg-purple-600 hover:bg-purple-700 w-full py-3 rounded-xl font-bold text-sm transition flex items-center justify-center">
+                    View Project<i class="fas fa-arrow-right ml-2 text-[10px]"></i></a></div>
+
+            <div class="glass-card p-5 rounded-[2.5rem] group hover:border-purple-500/50 transition-all">
+                <div class="bg-[#1a1625] rounded-3xl mb-6 overflow-hidden aspect-video flex items-center justify-center">
+                    <img src="beautyspa.png"class="w-full opacity-80 group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <h3 class="text-xl font-bold mb-1">BEAUTY SPA</h3>
+                    <p class="text-purple-400 text-sm font-medium mb-3">Task Four</p>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-6">A website containing information about beauty spas.</p>
+                    <a href=" https://putrianindyahapsari.github.io/Tugas4_BeautySpa/" target="_blank"
+                    class="bg-purple-600 hover:bg-purple-700 w-full py-3 rounded-xl font-bold text-sm transition flex items-center justify-center">
+                    View Project<i class="fas fa-arrow-right ml-2 text-[10px]"></i></a></div>
+
+            <div class="glass-card p-5 rounded-[2.5rem] group hover:border-purple-500/50 transition-all">
+                <div class="bg-[#1a1625] rounded-3xl mb-6 overflow-hidden aspect-video flex items-center justify-center">
+                    <img src="healthyfood.png"class="w-full opacity-80 group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <h3 class="text-xl font-bold mb-1">HEALTHY FOOD & CATERING</h3>
+                    <p class="text-purple-400 text-sm font-medium mb-3">Task Five</p>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-6">A website that contains healthy, nutritious and catering food.</p>
+                    <a href="https://putrianindyahapsari.github.io/Tugas5_Healthy-Food-Catering/" target="_blank"
+                    class="bg-purple-600 hover:bg-purple-700 w-full py-3 rounded-xl font-bold text-sm transition flex items-center justify-center">
+                    View Project<i class="fas fa-arrow-right ml-2 text-[10px]"></i></a></div>
+
+            
+            </div>
+        </section>
+
+<body class="flex items-center justify-center min-h-screen p-8">
+
+    <div class="max-w-6xl w-full flex flex-col lg:flex-row items-center justify-between gap-16">
+        
+        <!-- SKILLS -->
+        <section id="skills" class="w-full lg:w-1/2 scroll-mt-32">
+            
+            <div class="mb-8">
+                <h2 class="text-4xl font-bold">
+                    Ski<span class="text-purple-500">lls</span>
+                </h2>
+            </div>
+
+            <div class="space-y-6">
+                
+                <div class="flex items-center gap-5">
+                    <span class="text-base font-medium w-24">HTML</span>
+                    <div class="flex-1 progress-line h-3 rounded-full overflow-hidden">
+                        <div class="progress-fill h-full" style="width: 90%;"></div>
+                    </div>
+                    <span class="text-base font-bold w-12 text-right">90%</span>
+                </div>
+
+                <div class="flex items-center gap-5">
+                    <span class="text-base font-medium w-24">CSS</span>
+                    <div class="flex-1 progress-line h-3 rounded-full overflow-hidden">
+                        <div class="progress-fill h-full" style="width: 85%;"></div>
+                    </div>
+                    <span class="text-base font-bold w-12 text-right">85%</span>
+                </div>
+
+                <div class="flex items-center gap-5">
+                    <span class="text-base font-medium w-24">JavaScript</span>
+                    <div class="flex-1 progress-line h-3 rounded-full overflow-hidden">
+                        <div class="progress-fill h-full" style="width: 75%;"></div>
+                    </div>
+                    <span class="text-base font-bold w-12 text-right">75%</span>
+                </div>
+
+                <div class="flex items-center gap-5">
+                    <span class="text-base font-medium w-24">Figma</span>
+                    <div class="flex-1 progress-line h-3 rounded-full overflow-hidden">
+                        <div class="progress-fill h-full" style="width: 70%;"></div>
+                    </div>
+                    <span class="text-base font-bold w-12 text-right">70%</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ICON SKILLS -->
+        <div class="grid grid-cols-2 gap-6 w-full lg:w-auto">
+            
+            <div class="flex flex-col items-center gap-3">
+                <div class="glass-icon-card w-24 h-24 rounded-2xl flex items-center justify-center p-5">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" 
+                         alt="HTML5" class="w-12 h-12">
+                </div>
+                <span class="text-sm text-gray-400 font-medium">HTML5</span>
+            </div>
+
+            <div class="flex flex-col items-center gap-3">
+                <div class="glass-icon-card w-24 h-24 rounded-2xl flex items-center justify-center p-5">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" 
+                         alt="CSS3" class="w-12 h-12">
+                </div>
+                <span class="text-sm text-gray-400 font-medium">CSS3</span>
+            </div>
+
+            <div class="flex flex-col items-center gap-3">
+                <div class="glass-icon-card w-24 h-24 rounded-2xl flex items-center justify-center p-5">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
+                         alt="JavaScript" class="w-12 h-12">
+                </div>
+                <span class="text-sm text-gray-400 font-medium">JavaScript</span>
+            </div>
+
+            <div class="flex flex-col items-center gap-3">
+                <div class="glass-icon-card w-24 h-24 rounded-2xl flex items-center justify-center p-5">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" 
+                         alt="Figma" class="w-12 h-12">
+                </div>
+                <span class="text-sm text-gray-400 font-medium">Figma</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="py-20 mt-24">
+
+  <!-- CONTAINER -->
+  <div class="max-w-7xl ml-8 lg:ml-20 px-6">
+
+    <!-- TITLE -->
+    <div class="mb-10">
+
+      <div>
+
+        <!-- JUDUL DISAMAKAN DENGAN PROJECT -->
+        <h2 class="text-3xl font-bold mt-3">
+          Cont<span class="text-purple-500">act</span>
+        </h2>
+
+      </div>
+
+    </div>
+
+    <!-- CONTENT -->
+    <div class="grid lg:grid-cols-2 gap-6 items-start">
+
+      <!-- LEFT -->
+      <div class="bg-white/5 border border-white/10 rounded-[1.8rem] p-6 backdrop-blur-xl hover:border-purple-500/30 transition duration-500">
+
+        <h3 class="text-2xl font-bold mb-6">
+          Contact Information
+        </h3>
+
+        <!-- ITEM -->
+        <div class="flex items-center gap-4 mb-6">
+
+          <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-purple-600 to-violet-500 flex items-center justify-center text-lg shadow-lg shadow-purple-500/20">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+
+          <div>
+            <h4 class="font-semibold">Email</h4>
+            <p class="text-gray-400 text-sm">putri.p25096@satamail.my.id</p>
+          </div>
+
+        </div>
+
+        <!-- ITEM -->
+        <div class="flex items-center gap-4 mb-6">
+
+          <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-purple-600 to-violet-500 flex items-center justify-center text-lg shadow-lg shadow-purple-500/20">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+
+          <div>
+            <h4 class="font-semibold">Phone</h4>
+            <p class="text-gray-400 text-sm">+62 857 4190 7944</p>
+          </div>
+
+        </div>
+
+        <!-- ITEM -->
+        <div class="flex items-center gap-4">
+
+          <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-purple-600 to-violet-500 flex items-center justify-center text-lg shadow-lg shadow-purple-500/20">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+
+          <div>
+            <h4 class="font-semibold">Location</h4>
+            <p class="text-gray-400 text-sm">Urutsewu, Ampel, Boyolali</p>
+          </div>
+
+        </div>
+
+        <!-- SOCIAL -->
+        <div class="flex gap-3 mt-8">
+
+          <a href="https://github.com/putrianindyahapsari?tab=repositories" target="_blank"
+            class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-purple-600 transition duration-300">
+            <i class="fa-brands fa-github"></i></a>
+
+          <a href="https://instagram.com/ptrianienn__" target="_blank"
+            class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-purple-600 transition duration-300">
+            <i class="fa-brands fa-instagram"></i></a>
+
+          <a href="https://tiktok.com/@hyninzz" target="_blank"
+            class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-purple-600 transition duration-300">
+            <i class="fa-brands fa-tiktok"></i></a>
+
+          <a href="https://wa.me/6285741907944" target="_blank"
+            class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-purple-600 transition duration-300">
+            <i class="fa-brands fa-whatsapp"></i></a>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT -->
+      <div class="bg-white/5 border border-white/10 rounded-[1.8rem] p-6 backdrop-blur-xl hover:border-purple-500/30 transition duration-500">
+
+        <h3 class="text-2xl font-bold mb-6">
+          Send Message
+        </h3>
+
+        <form class="space-y-5">
+
+          <!-- INPUT -->
+          <div class="grid md:grid-cols-2 gap-5">
+
+            <input
+              type="text"
+              placeholder="Your Name"
+              class="bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none focus:border-purple-500 text-white placeholder:text-gray-500 text-sm"
+            >
+
+            <input
+              type="email"
+              placeholder="Your Email"
+              class="bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none focus:border-purple-500 text-white placeholder:text-gray-500 text-sm"
+            >
+
+          </div>
+
+          <input
+            type="text"
+            placeholder="Subject"
+            class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none focus:border-purple-500 text-white placeholder:text-gray-500 text-sm"
+          >
+
+          <textarea
+            rows="5"
+            placeholder="Your Message"
+            class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none focus:border-purple-500 text-white placeholder:text-gray-500 resize-none text-sm"
+          ></textarea>
+
+          <!-- BUTTON -->
+          <button class="bg-gradient-to-r from-purple-600 to-violet-600 hover:from-purple-500 hover:to-violet-500 px-7 py-3 rounded-xl font-semibold transition duration-300 shadow-lg shadow-purple-500/20 text-sm">
+            Send Message
+            <i class="fa-solid fa-arrow-right ml-2"></i>
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+        <footer class="text-center pt-10 border-t border-white/5 text-gray-600 text-xs">
+            <p>&copy; 2026 Smk Negeri Tengaran|@Ptranndy</p>
+        </footer>
+
+    </div>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.92/build/spline-viewer.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
